@@ -1,0 +1,88 @@
+.heading{
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.615);
+    margin-top: -10px;
+}
+
+.number{
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgba(14, 207, 250, 0.512);
+    width: 400px;
+    height: 340px;
+    padding: 30px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+.input{
+    margin-left: 200px;
+    
+}
+
+.result{
+    margin-left: 35px;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(252, 252, 252, 0.445);
+    padding: 8px;
+    font-size: larger;
+    outline: none;
+    border: 0.5px solid ;
+    
+
+}
+
+#passwordLengthSlider{
+    width: 80px;
+    margin-left: 30px;
+}
+
+label{
+    margin-left: 50px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bobo{
+    margin-left: 130px;
+}
+
+.gpButton{
+    margin-left: 50px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(252, 252, 252, 0.445);
+    padding: 8px;
+    font-size: large;
+    outline: none;
+    border: 1px solid;
+    border-radius: 0px;
+
+    
+}
+
+.container2{
+    background-color: azure;
+    text-align: center;
+    width: 370px;
+    height: 25px;
+    margin-left: 5px;
+    padding-top: 9px;
+    font-family: serif;
+    border: 0.5px solid ;
+    margin-bottom: 20px;
+}
+
+#result{
+    color: rgba(23, 23, 23, 0.859);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}

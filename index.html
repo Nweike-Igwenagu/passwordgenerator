@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+<div class="container">
+    <h2 class="heading">Password Generator</h2>
+    <!-- <input type="text" class="result" id="result"><br><br> -->
+    <div class="container2">
+    <span id="result"></span><br><br>
+    </div>
+    <label for="includesymbols" >Include Symbols</label><input style="margin-left: 148px;" type="checkbox" id="includeSymbols"><br><br>
+    <label for="includeUppercase">Include Numbers </label> <input style="margin-left: 138px;" type="checkbox" id="includeUppercase"><br><br>
+
+    <label for="includeNumbers">Include Uppercase</label> <input class="bobo" type="checkbox" id="includeNumbers"><br><br>
+    <label for="includeLowercase">Include Lowercase</label> <input class="bobo" type="checkbox" id="includeLowercase"><br><br>
+    
+    <label for="passwordLengthSlider">Password Length</label>
+    <input type="range" value="0" id="passwordLengthSlider" min="0" max="24" ><span class="number" style="margin-left: 30px;">0</span><br><br>
+    <button class="gpButton" id="generateButton">Generate Password</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
